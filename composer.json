@@ -1,0 +1,27 @@
+{
+    "name": "fnev-eu/days-since-last-by-on-twitter",
+    "type": "project",
+    "description": "{n} day(s) since last \"{foo}\" by @{bar} on Twitter. Quite simply.",
+    "keywords": ["api", "twitter", "twitter-api", "days", "since", "php", "humor"],
+    "require": {
+        "php": "^8.0",
+        "symfony/dotenv": "^6.2",
+        "symfony/http-client": "^6.2"
+    },
+    "license": "WTFPL",
+    "autoload": {
+        "psr-4": {
+            "DaysSinceLastByOnTwitter": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Florian \"Ori\" Neveu",
+            "email": "hello@fnev.eu"
+        }
+    ],
+    "require-dev": {
+        "symfony/var-dumper": "^6.2",
+        "phpunit/phpunit": "*"
+    }
+}
